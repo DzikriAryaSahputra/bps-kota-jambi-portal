@@ -1,0 +1,12 @@
+# Mengabaikan folder dependensi Node.js
+node_modules/
+
+# Mengabaikan file kredensial database lokal
+.env
+
+# Mengabaikan gambar upload pengunjung/admin, tapi pertahankan foldernya
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Mengabaikan file log (jika ada error)
+*.log
