@@ -40,11 +40,7 @@ require_once '../src/includes/public_header.php';
                     SISTEM MANAJEMEN TERPADU <span class="text-secondary font-bold">BPS KOTA JAMBI</span>
                 </p>
 
-                <div class="flex flex-col sm:flex-row flex-wrap gap-4 md:gap-6 justify-center md:justify-start">
-                    <button class="px-6 md:px-8 py-3 md:py-4 bg-gradient-to-r from-primary to-primary/80 text-white font-bold rounded-lg shadow-xl shadow-primary/20 hover:scale-105 transition-transform flex items-center justify-center gap-3 border border-primary/50">
-                        Mulai Eksplorasi
-                        <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
-                    </button>
+                <div class="flex flex-col sm:flex-row flex-wrap gap-4 md:gap-6 justify-center md:justify-start">              
                     <button class="px-6 md:px-8 py-3 md:py-4 bg-white/10 backdrop-blur-md text-white font-semibold rounded-lg hover:bg-white/20 transition-colors border border-white/20 justify-center">
                         Website BPS Kota Jambi
                     </button>
