@@ -5,15 +5,15 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>SIMPADU BPS Kota Jambi | Sovereign Data Architect</title>
-    
+
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
-    
+
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
-    
+
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    
+
     <script>
         tailwind.config = {
             darkMode: "class",
@@ -62,17 +62,17 @@
 </head>
 
 <body class="bg-background text-on-surface font-body selection:bg-primary selection:text-white">
-    
+
     <header class="bg-gradient-to-r from-brand-dark to-brand-dark/95 shadow-2xl shadow-brand-dark/20 sticky top-0 z-50 w-full border-b border-white/5">
-        
+
         <nav class="flex justify-between items-center w-full px-6 md:px-12 h-20 mx-auto">
             <div class="flex items-center gap-4">
                 <span class="text-xl md:text-2xl font-bold tracking-tighter text-white uppercase font-headline">SIMPADU</span>
             </div>
-            
+
             <div class="hidden md:flex items-center space-x-8">
                 <a class="text-primary border-b-2 border-primary pb-1 font-bold font-body transition-all" href="#">Home</a>
-                
+
                 <div class="relative group">
                     <button class="flex items-center gap-1 text-slate-300 hover:text-white transition-colors font-body hover:bg-white/10 px-3 py-1 rounded">
                         Tim Kerja
@@ -94,7 +94,7 @@
                 </div>
 
                 <a class="text-slate-300 hover:text-white transition-colors font-body hover:bg-white/10 px-3 py-1 rounded" href="#">Rumah Perubahan</a>
-                
+
                 <div class="relative group">
                     <button class="flex items-center gap-1 text-slate-300 hover:text-white transition-colors font-body hover:bg-white/10 px-3 py-1 rounded">
                         Layanan Terpadu
@@ -123,7 +123,7 @@
         <div id="mobile-menu" class="hidden md:hidden bg-brand-dark w-full border-t border-white/10 absolute left-0 top-20 shadow-2xl z-40 max-h-[calc(100vh-5rem)] overflow-y-auto">
             <div class="flex flex-col px-6 py-4 space-y-4">
                 <a class="text-primary font-bold font-body" href="#">Home</a>
-                
+
                 <div class="flex flex-col space-y-3 pt-2 pb-2 border-y border-white/10">
                     <span class="text-slate-400 text-xs font-bold uppercase tracking-wider">Tim Kerja</span>
                     <div class="grid grid-cols-2 gap-2 pl-2">
@@ -141,14 +141,14 @@
                 </div>
 
                 <a class="text-slate-300 hover:text-white transition-colors font-body" href="#">Rumah Perubahan</a>
-                
+
                 <div class="flex flex-col space-y-3 pt-2 pb-2 border-y border-white/10">
                     <span class="text-slate-400 text-xs font-bold uppercase tracking-wider">Layanan Terpadu</span>
                     <a href="https://sirusa.bps.go.id" target="_blank" class="text-slate-300 hover:text-white pl-4 text-sm font-medium">Sistem Rujukan Statistik</a>
                     <a href="https://silastik.bps.go.id" target="_blank" class="text-slate-300 hover:text-white pl-4 text-sm font-medium">Layanan Konsultasi (Silastik)</a>
                     <a href="https://jambikota.bps.go.id" target="_blank" class="text-slate-300 hover:text-white pl-4 text-sm font-medium">Website Utama BPS</a>
                 </div>
-                
+
                 <a class="text-slate-300 hover:text-white transition-colors font-body pb-4" href="#">Bantuan</a>
             </div>
         </div>
@@ -160,13 +160,13 @@
             const menu = document.getElementById('mobile-menu');
             const icon = document.getElementById('hamburger-icon');
 
-            if(btn && menu && icon) {
+            if (btn && menu && icon) {
                 btn.addEventListener('click', () => {
                     // Memunculkan / menyembunyikan menu mobile
                     menu.classList.toggle('hidden');
-                    
+
                     // Mengubah ikon menu menjadi ikon 'X' (close)
-                    if(menu.classList.contains('hidden')) {
+                    if (menu.classList.contains('hidden')) {
                         icon.textContent = 'menu';
                     } else {
                         icon.textContent = 'close';

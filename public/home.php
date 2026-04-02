@@ -43,7 +43,7 @@ require_once '../src/includes/public_home_header.php';
 
     <section class="py-12 md:py-20 px-4 md:px-12 bg-surface">
         <div class="container mx-auto">
-            
+
             <div class="flex flex-col md:flex-row md:justify-between items-center md:items-end mb-10 md:mb-16 text-center md:text-left gap-6 md:gap-0">
                 <div class="max-w-2xl">
                     <h2 class="text-brand-dark font-headline text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight mb-3 md:mb-4">Sistem Manajemen Terpadu</h2>
@@ -96,7 +96,7 @@ require_once '../src/includes/public_home_header.php';
     <section class="py-12 md:py-20 px-4 md:px-12 bg-background">
         <div class="container mx-auto">
             <div class="bg-surface-container-high rounded-3xl p-6 sm:p-10 md:p-16 lg:p-20 flex flex-col md:flex-row items-center gap-10 md:gap-16">
-                
+
                 <div class="w-full md:w-1/2 aspect-square sm:aspect-video md:aspect-[4/3] rounded-2xl md:rounded-3xl overflow-hidden shadow-2xl border border-white/10 shrink-0 bg-slate-100">
                     <iframe class="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.2039072731095!2d103.60642237423659!3d-1.6299828983548508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e25889fb299c54f%3A0xe887a3bc29be8e7d!2sBadan%20Pusat%20Statistik%20Kota%20Jambi!5e0!3m2!1sid!2sid!4v1774935985999!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
@@ -116,7 +116,7 @@ require_once '../src/includes/public_home_header.php';
                             </div>
                             <span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity text-primary text-sm mr-2" data-icon="chevron_right">chevron_right</span>
                         </a>
-                        
+
                         <a class="flex items-center gap-3 md:gap-4 p-3 md:p-4 bg-white rounded-xl border border-outline-variant/10 hover:border-tertiary hover:shadow-md transition-all group" href="#">
                             <div class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-tertiary/10 flex items-center justify-center group-hover:bg-tertiary transition-colors shrink-0">
                                 <span class="material-symbols-outlined text-tertiary group-hover:text-white transition-colors" data-icon="mail">mail</span>
@@ -131,7 +131,7 @@ require_once '../src/includes/public_home_header.php';
 
                     <div class="pt-6 border-t border-brand-dark/10">
                         <p class="text-xs font-bold text-brand-dark mb-4 uppercase tracking-wider text-center md:text-left">Kunjungi Media Sosial Kami</p>
-                        
+
                         <div class="flex items-center justify-center md:justify-start gap-4">
                             <a href="https://www.instagram.com/bps.kotajambi?igsh=YnA3Nm95c3N2OWY0" target="_blank" class="w-12 h-12 flex items-center justify-center rounded-full bg-white border border-outline-variant/20 text-slate-600 hover:bg-pink-50 hover:text-pink-600 hover:border-pink-300 transition-all shadow-sm hover:scale-110">
                                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
